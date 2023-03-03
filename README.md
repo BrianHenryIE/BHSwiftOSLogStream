@@ -4,7 +4,7 @@
 
 Opens a `/usr/bin/log stream` `Process` and parses data sent to the `Pipe` via its `readabilityHandler` with `Regex`.
 
-## Use
+### Use
 
 Instantiate a `LogStream`'s:
 

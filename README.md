@@ -4,6 +4,8 @@
 
 Opens a `/usr/bin/log stream` `Process` and parses data sent to the `Pipe` via its `readabilityHandler` with `Regex`.
 
+## Use
+
 Instantiate a `LogStream`'s:
 
 `init(subsystem: String, delegate: LogStreamDelegateProtocol, historySize: Int? = nil)`

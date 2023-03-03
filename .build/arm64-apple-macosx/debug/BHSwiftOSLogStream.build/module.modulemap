@@ -1,4 +1,0 @@
-module BHSwiftOSLogStream {
-    header "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/arm64-apple-macosx/debug/BHSwiftOSLogStream.build/BHSwiftOSLogStream-Swift.h"
-    requires objc
-}

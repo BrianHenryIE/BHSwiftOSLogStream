@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "2a114101cc8e7b973673e1b3741889a20508b2e1511669397476afc50a429f76"
+build_start_time: [1677557285, 265666961]
+build_end_time: [1677557285, 309015035]
+inputs:
+  "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/Collections/Collections.swift": [1677554343, 691877126]

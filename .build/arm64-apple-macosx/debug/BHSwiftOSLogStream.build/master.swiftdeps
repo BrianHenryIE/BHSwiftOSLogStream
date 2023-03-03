@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "0bad6e0ada889dd68ac6be7f6594e79e40bac558fa427175256087980200222c"
+build_start_time: [1677558250, 294066905]
+build_end_time: [1677558250, 609446048]
+inputs:
+  "/Users/brianhenry/Sites/BHSwiftOSLogStream/Sources/BHSwiftOSLogStream/History.swift": [1677554912, 899614095]
+  "/Users/brianhenry/Sites/BHSwiftOSLogStream/Sources/BHSwiftOSLogStream/LogEntry.swift": [1677463037, 933344602]
+  "/Users/brianhenry/Sites/BHSwiftOSLogStream/Sources/BHSwiftOSLogStream/LogParser.swift": [1677367249, 922875881]
+  "/Users/brianhenry/Sites/BHSwiftOSLogStream/Sources/BHSwiftOSLogStream/LogStream.swift": [1677555462, 618155479]
+  "/Users/brianhenry/Sites/BHSwiftOSLogStream/Sources/BHSwiftOSLogStream/LogStreamDelegateProtocol.swift": [1677554757, 211036205]
+  "/Users/brianhenry/Sites/BHSwiftOSLogStream/Sources/BHSwiftOSLogStream/UInt64Hex.swift": [1677558155, 616754770]

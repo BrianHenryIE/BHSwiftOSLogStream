@@ -1,0 +1,105 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "f8573890e1f3a704e7b5b279eccfc799b4d8ca66545de40aaf4a38a655313578"
+build_start_time: [1677557284, 196248054]
+build_end_time: [1677557285, 222642898]
+inputs:
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+Bucket.swift"
+  : [1677554343, 695367813]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+BucketIterator.swift"
+  : [1677554343, 695484638]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+Constants.swift"
+  : [1677554343, 695576667]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+CustomStringConvertible.swift"
+  : [1677554343, 695680141]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+Testing.swift"
+  : [1677554343, 695758819]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+UnsafeHandle.swift"
+  : [1677554343, 695885181]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable.swift"
+  : [1677554343, 695997476]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_Hashtable+Header.swift"
+  : [1677554343, 696082592]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Codable.swift"
+  : [1677554343, 697038412]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+CustomDebugStringConvertible.swift"
+  : [1677554343, 697140216]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+CustomReflectable.swift"
+  : [1677554343, 697223663]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+CustomStringConvertible.swift"
+  : [1677554343, 697304010]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Deprecations.swift"
+  : [1677554343, 697486400]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Elements+SubSequence.swift"
+  : [1677554343, 697682857]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Elements.swift"
+  : [1677554343, 697897672]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Equatable.swift"
+  : [1677554343, 697999715]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+ExpressibleByDictionaryLiteral.swift"
+  : [1677554343, 698086738]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Hashable.swift"
+  : [1677554343, 698164701]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Initializers.swift"
+  : [1677554343, 698298692]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Invariants.swift"
+  : [1677554343, 698407173]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Partial MutableCollection.swift"
+  : [1677554343, 698510646]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Partial RangeReplaceableCollection.swift"
+  : [1677554343, 698611736]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Sequence.swift"
+  : [1677554343, 698700428]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Values.swift"
+  : [1677554343, 698907375]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary.swift"
+  : [1677554343, 699159383]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Codable.swift"
+  : [1677554343, 699316501]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+CustomDebugStringConvertible.swift"
+  : [1677554343, 699403285]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+CustomReflectable.swift"
+  : [1677554343, 699478149]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+CustomStringConvertible.swift"
+  : [1677554343, 699554204]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Diffing.swift"
+  : [1677554343, 699642181]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Equatable.swift"
+  : [1677554343, 699721336]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+ExpressibleByArrayLiteral.swift"
+  : [1677554343, 699800491]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Hashable.swift"
+  : [1677554343, 699871063]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Initializers.swift"
+  : [1677554343, 700012922]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Insertions.swift"
+  : [1677554343, 700123786]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Invariants.swift"
+  : [1677554343, 700202941]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Partial MutableCollection.swift"
+  : [1677554343, 700540304]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Partial RangeReplaceableCollection.swift"
+  : [1677554343, 700637340]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Partial SetAlgebra+Basics.swift"
+  : [1677554343, 700981378]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Partial SetAlgebra+Operations.swift"
+  : [1677554343, 701236963]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Partial SetAlgebra+Predicates.swift"
+  : [1677554343, 701364994]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+RandomAccessCollection.swift"
+  : [1677554343, 701475143]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+ReserveCapacity.swift"
+  : [1677554343, 701553344]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+SubSequence.swift"
+  : [1677554343, 701660156]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Testing.swift"
+  : [1677554343, 701746940]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+UnorderedView.swift"
+  : [1677554343, 701904296]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+UnstableInternals.swift"
+  : [1677554343, 702001571]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet.swift"
+  : [1677554343, 702160835]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/Utilities/RandomAccessCollection+Offsets.swift"
+  : [1677554343, 702306270]
+  ? "/Users/brianhenry/Sites/BHSwiftOSLogStream/.build/checkouts/swift-collections/Sources/OrderedCollections/Utilities/_UnsafeBitset.swift"
+  : [1677554343, 702423095]

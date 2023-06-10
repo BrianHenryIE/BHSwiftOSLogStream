@@ -9,6 +9,18 @@ import OSLog
 
 public struct LogEntry: CustomStringConvertible {
 
+    public init( timestamp: Date, thread: UInt64, logType: LogEntry.LogType, activity: UInt64, pid: UInt, context: String, ttl: UInt, namespace: LogEntry.NameSpace,message: String ) {
+        self.timestamp = timestamp
+        self.thread=thread
+        self.logType=logType
+        self.activity=activity
+        self.pid=pid
+        self.context=context
+        self.ttl=ttl
+        self.namespace=namespace
+        self.message=message
+    }
+
     // os_log_type_t
     public enum LogType: String {
         case Debug = "Debug"
@@ -19,6 +31,11 @@ public struct LogEntry: CustomStringConvertible {
     }
 
     public struct NameSpace {
+        public init(namespace: String, namespaceContext: String? ) {
+            self.namespace = namespace
+            self.namespaceContext = namespaceContext
+        }
+
         let namespace: String
         let namespaceContext: String?
     }

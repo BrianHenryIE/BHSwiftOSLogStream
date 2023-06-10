@@ -18,7 +18,7 @@ public struct History<T> {
         self.maxSize = maxSize
     }
 
-    mutating func append(item: T){
+    public mutating func append(item: T){
 
         backingArray.append(item)
 

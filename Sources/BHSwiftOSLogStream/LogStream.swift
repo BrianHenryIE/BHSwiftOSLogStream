@@ -13,7 +13,7 @@ open class LogStream {
 
     var history: History<LogEntry>
 
-    init(subsystem: String, delegate: LogStreamDelegateProtocol, historySize: Int? = nil) {
+    public init(subsystem: String, delegate: LogStreamDelegateProtocol, historySize: Int? = nil) {
         self.delegate = delegate
         logParser = LogParser()
         history = History<LogEntry>(maxSize: historySize)

@@ -14,7 +14,7 @@ public struct History<T> {
 
     public private(set) var backingArray = Array<T>()
 
-    init(maxSize:Int? = nil) {
+    public init(maxSize:Int? = nil) {
         self.maxSize = maxSize
     }
 

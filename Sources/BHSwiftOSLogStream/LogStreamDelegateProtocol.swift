@@ -4,7 +4,7 @@
 
 import Foundation
 
-protocol LogStreamDelegateProtocol {
+public protocol LogStreamDelegateProtocol {
 
     func newLogEntry(entry: LogEntry, history: History<LogEntry>)
 }

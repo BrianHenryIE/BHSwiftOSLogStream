@@ -53,6 +53,11 @@ open class LogStream {
         }
 
         guard let logLineEntry = self.logParser.parse(logLine: logLine) else {
+            // Every log stream begins with a line like:
+            // Filtering the log data using "subsystem == "com.apple.TimeMachine""
+            if logLine.starts(with: "Filtering the log data") {
+                return;
+            }
             print("Could not parse line:\n\n\(logLine)")
             return
         }

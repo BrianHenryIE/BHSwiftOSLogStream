@@ -20,8 +20,15 @@ open class LogStream {
         listen(subsystem: subsystem)
     }
 
+    public init(process: String, delegate: LogStreamDelegateProtocol, historySize: Int? = nil) {
+        self.delegate = delegate
+        logParser = LogParser()
+        history = History<LogEntry>(maxSize: historySize)
+        listen(process: process)
+    }
+
     // /usr/bin/log stream --predicate 'subsystem == "com.apple.TimeMachine"' --info
-    private func listen(subsystem: String) {
+    private func listen(subsystem: String? = nil, process: String? = nil) {
 
         DispatchQueue.global().async {
 
@@ -33,10 +40,24 @@ open class LogStream {
 
             executeCommandProcess.launchPath = "/usr/bin/log"
 
-            let predicate = NSPredicate(format: "subsystem == %@", subsystem)
+            var args = [
+                "stream",
+                "--info", // log level
+            ]
+
+            if let subsystem = subsystem {
+                let predicate = NSPredicate(format: "subsystem == %@", subsystem)
+                args.append("--predicate")
+                args.append(predicate.predicateFormat)
+            }
+
+            if let process = process {
+                args.append("--process")
+                args.append(process)
+            }
 
             // `--info` is "minimum" log level, I think. i.e. this returns info and error etc.
-            executeCommandProcess.arguments = ["stream", "--info", "--predicate", predicate.predicateFormat]
+            executeCommandProcess.arguments = args
 
             pipe.fileHandleForReading.readabilityHandler = self.handler
 

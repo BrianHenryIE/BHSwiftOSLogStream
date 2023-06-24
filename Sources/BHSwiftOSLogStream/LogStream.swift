@@ -3,7 +3,7 @@
 //
 
 import Foundation
-
+import OSLog
 
 open class LogStream {
 
@@ -79,7 +79,7 @@ open class LogStream {
             if logLine.starts(with: "Filtering the log data") {
                 return;
             }
-            print("Could not parse line:\n\n\(logLine)")
+            os_log(.error, "Could not parse line:\n\n\(logLine)")
             return
         }
 
